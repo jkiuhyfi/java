@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+
+     class user{
+         constructor(name,age=1){
+             this.name=name;
+             this.age=age;
+         }
+
+         sys(){
+             return "函数"
+         }
+
+         static jingtai(){
+             return "静态函数"
+         }
+     }
+
+     let user1 = new user("cjj",11);
+     console.log(user1)
+    let sys = user1.sys();
+     console.log(sys)
+    console.log(user.jingtai())
+
+     //继承
+    class a extends user{
+        constructor() {
+            super("111", 52);
+        }
+    }
+
+    let a1 = new a();
+     a1.sys();
+     a.jingtai();
+</script>
+</body>
+</html>

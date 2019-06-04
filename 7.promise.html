@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+  <script>
+      // promise 异步的操作
+      const  p=new Promise((a,b)=>{
+      //  写ajax请求 a:成功  b:失败
+          setTimeout(()=>{
+
+              var number = Math.random();
+              if(number<0.5){
+                  a("成功"+number)
+              }else {
+                  b("失败"+number)
+              }
+
+          })
+
+      });
+
+      p.then(a=>{
+         console.log(a)
+      }).catch(b=> {
+          console.log(b)
+
+      })
+  </script>
+</body>
+</html>

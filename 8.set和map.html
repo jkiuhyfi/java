@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+  <script>
+      // set---foreach
+       var setlist = new Set();
+       setlist.add("1");
+       setlist.add("2");
+       console.log(setlist)
+      setlist.forEach(v=>{
+          console.log(v)
+      })
+      // map ----
+      var map = new Map();
+       map.set("chen","陈")
+
+      map.forEach((k,v)=>{
+          console.log(k+"----------"+v)
+      })
+
+      //偏历他的key
+      for(let key of map.keys()){
+           console.log( map.get(key))
+      }
+
+  </script>
+
+</body>
+</html>
