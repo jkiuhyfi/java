@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../js/lib/vue-2.4.0.js"></script>
+</head>
+<body>
+
+  <div id="app">
+    <p>{{date | i}}</p>
+  </div>
+
+   <script>
+
+
+
+        var vm = new Vue({
+            el:"#app",
+            data:{
+                msg:"当前学习vue的过滤器",
+                date:new Date()
+            },
+            methods:{
+
+            },
+            filters:{
+                i:a=>{
+                    let date = new Date(a);
+                    //年
+                    let fullYear = date.getFullYear();
+                    //月
+                    let month = date.getMonth();
+                    //馹
+                    let date1 = date.getDate();
+                    return fullYear+"--"+month+"--"+date1
+                }
+            }
+        });
+
+
+   </script>
+</body>
+</html>

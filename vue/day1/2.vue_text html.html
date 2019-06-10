@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../js/lib/vue-2.4.0.js"></script>
+</head>
+<body>
+
+   <div id="app">
+     <p v-text="msg">v-text会覆盖原本的内容</p>
+       <p v-html="msg2"></p>
+   </div>
+
+   <script>
+        var vm = new Vue({
+            el:"#app",
+            data:{
+               msg:"当前学习vue",
+                msg2:"<h1>v-html</h1>"
+            }
+        });
+   </script>
+</body>
+</html>

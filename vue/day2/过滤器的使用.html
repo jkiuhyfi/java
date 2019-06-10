@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../js/lib/vue-2.4.0.js"></script>
+</head>
+<body>
+
+  <div id="app">
+    <p>{{msg | msgfrom("222")}}</p>
+  </div>
+
+   <script>
+
+       // data 数据   arg 参数
+       Vue.filter("msgfrom",(data,arg)=>{
+           return  data.replace("当前",arg);
+       })
+
+        var vm = new Vue({
+            el:"#app",
+            data:{
+                msg:"当前学习vue的过滤器"
+            },
+            methods:{
+
+            }
+        });
+
+
+   </script>
+</body>
+</html>

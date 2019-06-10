@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../js/lib/vue-2.4.0.js"></script>
+</head>
+<body>
+
+   <div id="app">
+       <button type="button" value="按钮" :title="title" @click="show">按钮</button>
+   </div>
+
+   <script>
+        var vm = new Vue({
+            el:"#app",
+            data:{
+               msg:"当前学习vue",
+                title:"标题"
+            },
+            methods:{
+                show(){
+                    alert("点击")
+                }
+            }
+        });
+   </script>
+</body>
+</html>

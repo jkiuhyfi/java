@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../js/lib/vue-2.4.0.js"></script>
+    <script src="../../js/lib/vue-resource-1.3.4.js"></script>
+</head>
+<body>
+
+   <div id="app">
+     <input type="button" value="get请求" @click="getinfo">
+
+   </div>
+
+   <script>
+        var vm = new Vue({
+            el:"#app",
+            data:{
+               msg:"当前学习vue"
+            },
+           methods:{
+                //get请求
+               getinfo(){
+                 this.$http.get("http://localhost:9091/c/find",{},{ emulateJSON: true }).then(result=>{
+                     console.log(result.data)
+                 })
+               },
+
+               // //post请求
+               // postinfo(){
+               //     // 第一个参数:url  第二个参数:请求参数   第三个参数:请求数据格式
+               //     this.$http.post("http://vue.studyit.io/api/getlunbo",{},{ emulateJSON: true }).then(result=>{
+               //         console.log(result)
+               //     })
+               // },
+               // jsonpinfo(){
+               //     this.$http.jsonp("url",{},{}).then(res=>{
+               //         console.log(res)
+               //     })
+               // }
+           }
+        });
+   </script>
+</body>
+</html>
