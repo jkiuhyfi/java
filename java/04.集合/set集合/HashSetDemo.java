@@ -10,12 +10,12 @@ import java.util.Set;
 public class HashSetDemo {
 
     public static void main(String[] args) {
-        Set<String> set=new HashSet<>();
-       set.add("1");
-       set.add("超能");
+        Set<String> set = new HashSet<>();
+        set.add("1");
+        set.add("超能");
 
         Iterator<String> iterator = set.iterator();
-        while (iterator.hasNext()){
+        while (iterator.hasNext()) {
             String next = iterator.next();
             System.out.println(next);
         }

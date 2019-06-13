@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module type="WEB_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
-    <exclude-output />
-    <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/01.java面向对象_关键词" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/01.java面向对象" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/02.多线程" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/03.api" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/04.集合" isTestSource="false" />
-    </content>
-    <orderEntry type="inheritedJdk" />
+<module version="4">
+  <component name="NewModuleRootManager">
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

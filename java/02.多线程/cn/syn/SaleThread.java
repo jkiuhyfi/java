@@ -2,11 +2,12 @@ package cn.syn;
 
 public class SaleThread implements Runnable {
 
-    Object lock=new Object();
+    Object lock = new Object();
+
     @Override
     public void run() {
-        int i=10;
-        while (i>0) {
+        int i = 10;
+        while (i > 0) {
             //多个线程共享同一个资源，每次操作只允许一个线程访问
             synchronized (lock) {
                 try {

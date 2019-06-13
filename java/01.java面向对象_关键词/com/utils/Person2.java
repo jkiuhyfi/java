@@ -9,7 +9,7 @@ public class Person2 {
 
     private Integer age;
 
-    private Map map=new HashMap();
+    private Map map = new HashMap();
 
     public Person2() {
 
@@ -19,7 +19,7 @@ public class Person2 {
         this();//引用无惨的构造方法
         this.name = name;  //区分成员变量与局部变量
         this.age = age;
-        this.map.put("当前对象",name);//当前对象
+        this.map.put("当前对象", name);//当前对象
     }
 
 

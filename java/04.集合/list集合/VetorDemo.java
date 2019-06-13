@@ -11,9 +11,9 @@ public class VetorDemo {
         vector.add("陈");
         vector.add("开");
         Iterator<String> iterator = vector.iterator();//获得迭代器
-        while (iterator.hasNext()){
+        while (iterator.hasNext()) {
             String next = iterator.next();
-            if("陈".equals(next)){
+            if ("陈".equals(next)) {
                 vector.remove(next);
                 break;
             }

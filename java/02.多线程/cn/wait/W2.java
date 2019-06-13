@@ -2,11 +2,11 @@ package cn.wait;
 
 public class W2 implements Runnable {
 
-    private Object lock=new Object();
+    private Object lock = new Object();
 
     @Override
     public void run() {
-        synchronized (lock){
+        synchronized (lock) {
             try {
 
                 lock.notify(); //等待

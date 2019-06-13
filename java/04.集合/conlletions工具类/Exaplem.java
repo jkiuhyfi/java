@@ -3,13 +3,14 @@ package conlletions工具类;
 
 import java.util.ArrayList;
 import java.util.Collections;
+
 //排序
 public class Exaplem {
 
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<>();
         //向集合添加元素
-      //  list.add("chen");
+        //  list.add("chen");
         list.add("1");
         list.add("12");
         list.add("13");
@@ -23,7 +24,7 @@ public class Exaplem {
 //        Collections.replaceAll(list,"1","222");
 //        System.out.println(list);
         System.out.println(list);
-        Collections.swap(list,0,2);
+        Collections.swap(list, 0, 2);
         System.out.println(list);
 
 

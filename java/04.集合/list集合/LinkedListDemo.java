@@ -15,17 +15,17 @@ public class LinkedListDemo {
         list.add("1");
         System.out.println(list);
         //添加
-         list.addFirst("陈");
-         list.addLast("焕");
-         //删除
-         list.removeFirst();
+        list.addFirst("陈");
+        list.addLast("焕");
+        //删除
+        list.removeFirst();
         System.out.println(list);
         Iterator<String> iterator = list.iterator();
 
-        while (iterator.hasNext()){
-             //取出元素
+        while (iterator.hasNext()) {
+            //取出元素
             String next = iterator.next();
-            if(next.equals("陈")){
+            if (next.equals("陈")) {
                 list.remove(next);
                 break;
             }

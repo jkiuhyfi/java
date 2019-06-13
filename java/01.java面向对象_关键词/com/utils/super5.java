@@ -1,4 +1,5 @@
 package com.utils;
+
 // super访问父类的变量 方法
 public class super5 extends super55 {
 
@@ -12,7 +13,6 @@ public class super5 extends super55 {
 
         System.out.println(super.name);//访问父类的变量
     }
-
 
 
     public static void main(String[] args) {

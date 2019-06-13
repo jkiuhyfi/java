@@ -10,9 +10,11 @@
       <module fileurl="file://$PROJECT_DIR$/05.IO/05.IO.iml" filepath="$PROJECT_DIR$/05.IO/05.IO.iml" />
       <module fileurl="file://$PROJECT_DIR$/06.网络编程/06.网络编程.iml" filepath="$PROJECT_DIR$/06.网络编程/06.网络编程.iml" />
       <module fileurl="file://$PROJECT_DIR$/ES6.iml" filepath="$PROJECT_DIR$/ES6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java/demo.iml" filepath="$PROJECT_DIR$/java/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/java/java.iml" filepath="$PROJECT_DIR$/java/java.iml" />
       <module fileurl="file://$PROJECT_DIR$/java_面向对象_关键词/java_面向对象_关键词.iml" filepath="$PROJECT_DIR$/java_面向对象_关键词/java_面向对象_关键词.iml" />
       <module fileurl="file://$PROJECT_DIR$/vue/vue.iml" filepath="$PROJECT_DIR$/vue/vue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NewInstan/反射.iml" filepath="$PROJECT_DIR$/NewInstan/反射.iml" />
     </modules>
   </component>
 </project>

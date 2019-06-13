@@ -2,9 +2,9 @@ package com.utils;
 
 public class super55 {
 
-    public String name="父变量";
+    public String name = "父变量";
 
-    public void shout(){
+    public void shout() {
         System.out.println("动物的叫声");
     }
 

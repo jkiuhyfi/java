@@ -4,8 +4,8 @@ import java.util.Objects;
 
 public class Student {
 
-    private  String   id;
-    private String  name;
+    private String id;
+    private String name;
 
     public String getId() {
         return id;
@@ -28,9 +28,9 @@ public class Student {
         this.name = name;
     }
 
-   public int hashcode(){
+    public int hashcode() {
         return id.hashCode();
-   }
+    }
 
 
 }
