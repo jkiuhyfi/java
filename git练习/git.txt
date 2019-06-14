@@ -1,0 +1,13 @@
+1.git初始化：
+
+git init
+
+2.创建用户跟邮箱
+
+git config --global user.name "chen"
+
+git config --global user.email "222@qq.com"
+
+
+
+git pull origin master --allow-unrelated-histories
