@@ -1,6 +1,6 @@
-package cn.file.io;
+package cn.file.序列化流;
 
-public class 输出流2 {
+public class demo {
 
     public static void main(String[] args) {
 

@@ -1,5 +1,7 @@
 package StringApi;
 
+import java.util.Arrays;
+
 public class StringApiDemo {
 
     public static void main(String[] args) {
@@ -21,6 +23,14 @@ public class StringApiDemo {
         for (int i = 0; i < splits.length; i++) {
             System.out.println(splits[i]);
         }
+
+        //将string转成byte类型
+        String s="1111";
+        byte[] bytes = s.getBytes();
+        System.out.println("string转成byte"+Arrays.toString(bytes));
+        //将string转成 int类型
+//        byte b = Byte.parseByte(s);
+//        System.out.println(b);
 
     }
 }

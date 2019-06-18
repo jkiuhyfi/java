@@ -1,6 +1,5 @@
-package cn.file.io;
+package cn.file.字节流io;
 
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 
 public class 输出流 {
